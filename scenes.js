@@ -402,15 +402,15 @@ class LoadingScreen extends Phaser.Scene {
       const screenCenterX = this.cameras.main.worldView.x + this.cameras.main.width / 2;
       const screenCenterY = this.cameras.main.worldView.y + this.cameras.main.height / 2;
       this.add.image(screenCenterX, screenCenterY+.5, "aaa");
-      let fadeovermenuscreen = this.add.image(screenCenterX, screenCenterY+.5, "loadinggif");
-         fadeovermenuscreen.setAlpha(0);//start off transp
-         this.tweens.add({
-            targets: fadeovermenuscreen,
-            alpha: 1,
-            duration: 800,
-            delay: 500,
-            ease: "Quad.out"
-         });
+      //let fadeovermenuscreen = this.add.image(screenCenterX, screenCenterY+.5, "loadinggif");
+      //   fadeovermenuscreen.setAlpha(0);//start off transp
+      //   this.tweens.add({
+      //      targets: fadeovermenuscreen,
+      //      alpha: 1,
+      //      duration: 800,
+      //      delay: 500,
+      //      ease: "Quad.out"
+      //   });
          //I wanted to put my animated gif here but phaser despises gifs and only plays the first frame so it's gonna be not animated yet 
          // I'll make it into a spritesheet some other time to make it work :/
       let animatedspritebutnotyet = this.add.image(140, 380, "pixelgif");
