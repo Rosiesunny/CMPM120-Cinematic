@@ -4,54 +4,60 @@ Will do later
 
 ## Requirements Met
 
-Nabbed this from Poom's demo, gonna make edits later once I'm done!
+Nabbed this from Poom's demo, gonna make edits later once I'm done! 
 
 * 3+ scenes (not counting intro/outro slides or others used only for fading effects):
-  - Splash
-  - Student
-  - Vigilante
-  - Poem
-  - MainMenu
-  - Exposition
-  - GameStart
+- Splash
+- TitleScreen
+- LoadingScreen
+- Monologue
 
 * 2+ audio assets:
-  - hum-edited.wav
-  - SharkmanAnthem.wav
+  - cheery.wav
+  - cheeryviolinvibraphone.wav
+  - dododododododoweewoo.wav
+  - mainmenuclicks2.wav
+  - mainmenutheme.wav
+  - menuclicks1.wav
+  - phoneringdyingout.wav
+  - somber.wav
 
 * 2+ image assets:
-  - DayBackground.png
-  - DivineGemstoneLogoText.png
-  - GameTitleText.png
-  - Gemstone.png
-  - LogoHalo.png
-  - MainMenuBackground.png
-  - MouseIcon.png
-  - NightBackground.png
-  - Sharkman_Citizen.png
-  - Sharkman_Hero.png
+  - a.png
+  - cloud.png
+  - febbe_n_ros_w_name_large.png
+  - kindredregards.png
+  - pixeltimebutlilguy7.gif
+  - rosiesunnybackground.png
+  - rosiesunnyebigger.png
+  - rosiesunnygamestitle.png
+  - seede.png
+  - selectarrowblue.png
+  - selectarrowpink.png
+  - selectarrowwhite.png
+  - xbuttonblue.png
+  - xbuttonpink.png
 
 * 2+ geometric shapes:
-  - spotlightCone in Splash scene (triangle)
-  - textbox in Student scene (rectangle)
-  - textbox in Vigilante scene (rectangle)
-  - rectangle in Exposition scene to help make it look like the background is being wiped away along with the text.
+  - darkrectangle in Splash
+  - lightrectangle in Splash
+  - exitscreen in Splash
+  - exitscreen in TitleScreen
+  - exitscreen in LoadingScreen
+  - exitscreen in Monologue
 
 * 1+ logotype text:
-  - DivineGemstoneLogoText.png in Splash
-  - GameTitleText.png in MainMenu
+  - rosiesunnygamestitle.png
+  - kindredregards.png
 
 * 1+ multiline text block:
-  - 3 in Poem
-  - 1 in MainMenu
+  - 1 in Monologue
 
 * 1+ fading scene transition:
-  - Poem to MainMenu
-  - MainMenu to Exposition
+  - Splash to TitleScreen
+  - TitleScreen to LoadingScreen
+  - LoadingScreen to Monologue
+
 
 * 1+ object motion animation::
-  - Gemstone and studio name falling into place in Splash
-  - Textbox sliding into place in Student
-  - Textbox sliding into place in Vigilante
-  - Textboxes sliding into place in Poem
-  - Title text sliding from center into final position in MainMenu
+  - Every image asset in this thing has some kind of animation. Idk. Rosiesunny Games text appears from the top, on the title screen all the menu options pop in one at a time and bounce, etc. 
