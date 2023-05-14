@@ -1,10 +1,13 @@
 ## Credits
 
-Will do later
+I made all the assets for this. 
+For all pixel art, I used Clip Studio Paint.
+For animating my gif sprite that won't animate because Phaser hates gifs, I used GIMP.
+For music, I used Anvil Studio.
 
 ## Requirements Met
 
-Nabbed this from Poom's demo, gonna make edits later once I'm done! 
+Nabbed this formatting from Poom's demo! 
 
 * 3+ scenes (not counting intro/outro slides or others used only for fading effects):
 - Splash
